@@ -1,0 +1,1012 @@
+{
+  "2017": {
+    "Delhi": {
+      "Petrol": {
+        "December": 69.37,
+        "November": 69.53,
+        "October": 68.74,
+        "September": 70.21,
+        "August": 67.77,
+        "July": 64.02,
+        "June": 64.2
+      },
+      "Diesel": {
+        "December": 58.74,
+        "November": 58.25,
+        "October": 57.28,
+        "September": 58.36,
+        "August": 56.85,
+        "July": 54.58,
+        "June": 53.84
+      }
+    },
+    "Mumbai": {
+      "Petrol": {
+        "December": 77.04,
+        "November": 76.66,
+        "October": 76.51,
+        "September": 79.32,
+        "August": 76.91,
+        "July": 73.96,
+        "June": 75.44
+      },
+      "Diesel": {
+        "December": 61.84,
+        "November": 60.88,
+        "October": 60.17,
+        "September": 61.99,
+        "August": 60.39,
+        "July": 58.7,
+        "June": 59.21
+      }
+    },
+    "Chennai": {
+      "Petrol": {
+        "December": 71.89,
+        "November": 72.07,
+        "October": 71.23,
+        "September": 72.78,
+        "August": 70.21,
+        "July": 66.46,
+        "June": 66.67
+      },
+      "Diesel": {
+        "December": 61.87,
+        "November": 61.34,
+        "October": 60.3,
+        "September": 61.46,
+        "August": 59.85,
+        "July": 57.52,
+        "June": 56.71
+      }
+    },
+    "Kolkata": {
+      "Petrol": {
+        "December": 72.13,
+        "November": 72.29,
+        "October": 71.52,
+        "September": 72.95,
+        "August": 70.61,
+        "July": 67.28,
+        "June": 67.02
+      },
+      "Diesel": {
+        "December": 61.4,
+        "November": 60.91,
+        "October": 59.94,
+        "September": 61.02,
+        "August": 59.51,
+        "July": 57.18,
+        "June": 56
+      }
+    }
+  },
+  "2018": {
+    "Delhi": {
+      "Petrol": {
+        "December": 70.47,
+        "November": 76.77,
+        "October": 81.92,
+        "September": 81.38,
+        "August": 77.33,
+        "July": 76.3,
+        "June": 76.6,
+        "May": 75.92,
+        "April": 74.16,
+        "March": 72.44,
+        "February": 72.52,
+        "January": 71.38
+      },
+      "Diesel": {
+        "December": 64.73,
+        "November": 71.54,
+        "October": 74.7,
+        "September": 73.12,
+        "August": 68.87,
+        "July": 67.96,
+        "June": 68.03,
+        "May": 67.14,
+        "April": 65.26,
+        "March": 63.06,
+        "February": 63.2,
+        "January": 61.89
+      }
+    },
+    "Mumbai": {
+      "Petrol": {
+        "December": 76.08,
+        "November": 82.29,
+        "October": 87.64,
+        "September": 88.76,
+        "August": 84.76,
+        "July": 83.71,
+        "June": 84.35,
+        "May": 83.76,
+        "April": 82.01,
+        "March": 80.31,
+        "February": 80.39,
+        "January": 79.26
+      },
+      "Diesel": {
+        "December": 67.74,
+        "November": 74.94,
+        "October": 78.46,
+        "September": 77.63,
+        "August": 73.11,
+        "July": 72.12,
+        "June": 72.37,
+        "May": 71.49,
+        "April": 69.49,
+        "March": 67.16,
+        "February": 67.31,
+        "January": 65.85
+      }
+    },
+    "Chennai": {
+      "Petrol": {
+        "December": 73.12,
+        "November": 79.73,
+        "October": 85.15,
+        "September": 84.59,
+        "August": 80.34,
+        "July": 79.22,
+        "June": 79.51,
+        "May": 78.79,
+        "April": 76.94,
+        "March": 75.13,
+        "February": 75.21,
+        "January": 74.01
+      },
+      "Diesel": {
+        "December": 68.34,
+        "November": 75.6,
+        "October": 78.98,
+        "September": 77.29,
+        "August": 72.74,
+        "July": 71.75,
+        "June": 71.81,
+        "May": 70.86,
+        "April": 68.85,
+        "March": 66.49,
+        "February": 66.65,
+        "January": 65.25
+      }
+    },
+    "Kolkata": {
+      "Petrol": {
+        "December": 72.58,
+        "November": 78.71,
+        "October": 83.76,
+        "September": 83.61,
+        "August": 80.27,
+        "July": 79.05,
+        "June": 79.27,
+        "May": 78.6,
+        "April": 76.87,
+        "March": 75.18,
+        "February": 75.23,
+        "January": 74.1
+      },
+      "Diesel": {
+        "December": 66.51,
+        "November": 73.39,
+        "October": 76.55,
+        "September": 75.34,
+        "August": 71.69,
+        "July": 70.56,
+        "June": 70.58,
+        "May": 69.75,
+        "April": 67.96,
+        "March": 65.75,
+        "February": 65.88,
+        "January": 64.56
+      }
+    }
+  },
+  "2019": {
+    "Delhi": {
+      "Petrol": {
+        "December": 74.81,
+        "November": 73.69,
+        "October": 73.46,
+        "September": 72.71,
+        "August": 72.1,
+        "July": 72.71,
+        "June": 70.42,
+        "May": 71.94,
+        "April": 72.93,
+        "March": 72.54,
+        "February": 70.83,
+        "January": 70.02
+      },
+      "Diesel": {
+        "December": 66.41,
+        "November": 65.79,
+        "October": 66.48,
+        "September": 65.93,
+        "August": 65.49,
+        "July": 65.96,
+        "June": 64.43,
+        "May": 66.38,
+        "April": 66.31,
+        "March": 67.01,
+        "February": 66.01,
+        "January": 64.27
+      }
+    },
+    "Mumbai": {
+      "Petrol": {
+        "December": 80.47,
+        "November": 79.35,
+        "October": 79.07,
+        "September": 78.39,
+        "August": 77.76,
+        "July": 78.33,
+        "June": 76.11,
+        "May": 77.55,
+        "April": 78.5,
+        "March": 78.16,
+        "February": 76.47,
+        "January": 75.66
+      },
+      "Diesel": {
+        "December": 69.66,
+        "November": 69.01,
+        "October": 69.69,
+        "September": 69.15,
+        "August": 68.66,
+        "July": 69.13,
+        "June": 67.55,
+        "May": 69.54,
+        "April": 69.41,
+        "March": 70.2,
+        "February": 69.12,
+        "January": 67.27
+      }
+    },
+    "Chennai": {
+      "Petrol": {
+        "December": 77.78,
+        "November": 76.59,
+        "October": 76.29,
+        "September": 75.56,
+        "August": 74.89,
+        "July": 75.51,
+        "June": 73.15,
+        "May": 74.68,
+        "April": 75.7,
+        "March": 75.34,
+        "February": 73.53,
+        "January": 72.67
+      },
+      "Diesel": {
+        "December": 70.2,
+        "November": 69.54,
+        "October": 70.23,
+        "September": 69.68,
+        "August": 69.19,
+        "July": 69.67,
+        "June": 68.15,
+        "May": 70.16,
+        "April": 70.02,
+        "March": 70.82,
+        "February": 69.73,
+        "January": 67.87
+      }
+    },
+    "Kolkata": {
+      "Petrol": {
+        "December": 77.48,
+        "November": 76.38,
+        "October": 76.1,
+        "September": 75.42,
+        "August": 74.8,
+        "July": 75.08,
+        "June": 72.67,
+        "May": 74,
+        "April": 74.95,
+        "March": 74.62,
+        "February": 72.94,
+        "January": 72.13
+      },
+      "Diesel": {
+        "December": 68.82,
+        "November": 68.2,
+        "October": 68.84,
+        "September": 68.34,
+        "August": 67.83,
+        "July": 68,
+        "June": 66.34,
+        "May": 68.14,
+        "April": 68.05,
+        "March": 68.8,
+        "February": 67.79,
+        "January": 66.04
+      }
+    }
+  },
+  "2020": {
+    "Delhi": {
+      "Petrol": {
+        "December": 83.54,
+        "November": 81.31,
+        "October": 81.06,
+        "September": 81.56,
+        "August": 80.95,
+        "July": 80.43,
+        "June": 76.1,
+        "May": 71.04,
+        "April": 69.59,
+        "March": 70.15,
+        "February": 72.23,
+        "January": 75.01
+      },
+      "Diesel": {
+        "December": 73.7,
+        "November": 70.86,
+        "October": 70.46,
+        "September": 72.26,
+        "August": 73.56,
+        "July": 80.97,
+        "June": 74.91,
+        "May": 68.47,
+        "April": 62.29,
+        "March": 62.84,
+        "February": 65.07,
+        "January": 68.14
+      }
+    },
+    "Mumbai": {
+      "Petrol": {
+        "December": 90.17,
+        "November": 88,
+        "October": 87.74,
+        "September": 88.22,
+        "August": 87.66,
+        "July": 87.19,
+        "June": 83.01,
+        "May": 76.31,
+        "April": 76.31,
+        "March": 75.86,
+        "February": 77.89,
+        "January": 80.61
+      },
+      "Diesel": {
+        "December": 80.33,
+        "November": 77.3,
+        "October": 76.86,
+        "September": 78.74,
+        "August": 80.11,
+        "July": 79.47,
+        "June": 73.48,
+        "May": 66.21,
+        "April": 66.21,
+        "March": 65.79,
+        "February": 68.2,
+        "January": 71.45
+      }
+    },
+    "Chennai": {
+      "Petrol": {
+        "December": 86.36,
+        "November": 84.37,
+        "October": 84.14,
+        "September": 84.58,
+        "August": 84.07,
+        "July": 83.63,
+        "June": 79.82,
+        "May": 75.22,
+        "April": 72.28,
+        "March": 72.87,
+        "February": 75.03,
+        "January": 77.93
+      },
+      "Diesel": {
+        "December": 79.05,
+        "November": 76.34,
+        "October": 75.95,
+        "September": 77.63,
+        "August": 78.86,
+        "July": 78.28,
+        "June": 72.94,
+        "May": 67.98,
+        "April": 65.71,
+        "March": 66.3,
+        "February": 68.72,
+        "January": 72
+      }
+    },
+    "Kolkata": {
+      "Petrol": {
+        "December": 85.02,
+        "November": 82.85,
+        "October": 82.59,
+        "September": 83.07,
+        "August": 82.52,
+        "July": 82.1,
+        "June": 77.95,
+        "May": 73.3,
+        "April": 73.3,
+        "March": 72.84,
+        "February": 74.88,
+        "January": 77.61
+      },
+      "Diesel": {
+        "December": 77.27,
+        "November": 74.41,
+        "October": 73.99,
+        "September": 75.76,
+        "August": 77.06,
+        "July": 76.36,
+        "June": 70.59,
+        "May": 65.62,
+        "April": 65.62,
+        "March": 65.17,
+        "February": 67.41,
+        "January": 70.5
+      }
+    }
+  },
+  "2021": {
+    "Delhi": {
+      "Petrol": {
+        "December": 95.69,
+        "November": 104.57,
+        "October": 105.43,
+        "September": 101.24,
+        "August": 101.74,
+        "July": 101.09,
+        "June": 96.52,
+        "May": 92.32,
+        "April": 90.47,
+        "March": 91.06,
+        "February": 88.83,
+        "January": 84.89
+      },
+      "Diesel": {
+        "December": 86.67,
+        "November": 87.85,
+        "October": 94.07,
+        "September": 88.8,
+        "August": 89.52,
+        "July": 89.71,
+        "June": 87.27,
+        "May": 82.96,
+        "April": 80.8,
+        "March": 81.37,
+        "February": 79.11,
+        "January": 75.07
+      }
+    },
+    "Mumbai": {
+      "Petrol": {
+        "December": 109.98,
+        "November": 110.56,
+        "October": 111.37,
+        "September": 107.31,
+        "August": 107.74,
+        "July": 107.1,
+        "June": 102.68,
+        "May": 98.63,
+        "April": 96.9,
+        "March": 97.47,
+        "February": 95.3,
+        "January": 91.5
+      },
+      "Diesel": {
+        "December": 94.14,
+        "November": 95.39,
+        "October": 101.99,
+        "September": 96.38,
+        "August": 97.09,
+        "July": 97.28,
+        "June": 94.69,
+        "May": 90.13,
+        "April": 87.88,
+        "March": 88.49,
+        "February": 86.1,
+        "January": 81.8
+      }
+    },
+    "Chennai": {
+      "Petrol": {
+        "December": 101.4,
+        "November": 101.92,
+        "October": 102.65,
+        "September": 99,
+        "August": 100.66,
+        "July": 101.83,
+        "June": 97.78,
+        "May": 94.08,
+        "April": 92.5,
+        "March": 93.02,
+        "February": 91.04,
+        "January": 87.57
+      },
+      "Diesel": {
+        "December": 91.43,
+        "November": 92.55,
+        "October": 98.45,
+        "September": 93.43,
+        "August": 94.06,
+        "July": 94.24,
+        "June": 91.91,
+        "May": 87.83,
+        "April": 85.81,
+        "March": 86.35,
+        "February": 84.21,
+        "January": 80.37
+      }
+    },
+    "Kolkata": {
+      "Petrol": {
+        "December": 104.67,
+        "November": 105.24,
+        "October": 106.02,
+        "September": 101.67,
+        "August": 102,
+        "July": 101.23,
+        "June": 96.44,
+        "May": 92.42,
+        "April": 90.69,
+        "March": 91.25,
+        "February": 89.89,
+        "January": 86.33
+      },
+      "Diesel": {
+        "December": 89.79,
+        "November": 90.97,
+        "October": 97.18,
+        "September": 91.89,
+        "August": 92.63,
+        "July": 92.79,
+        "June": 90.12,
+        "May": 85.81,
+        "April": 83.68,
+        "March": 84.25,
+        "February": 82.55,
+        "January": 78.66
+      }
+    }
+  },
+  "2022": {
+    "Delhi": {
+      "Petrol": {
+        "December": 96.72,
+        "November": 96.72,
+        "October": 96.72,
+        "September": 96.72,
+        "August": 96.72,
+        "July": 96.72,
+        "June": 96.72,
+        "May": 102.61,
+        "April": 105.05,
+        "March": 96.51,
+        "February": 95.41,
+        "January": 95.41
+      },
+      "Diesel": {
+        "December": 89.62,
+        "November": 89.62,
+        "October": 89.62,
+        "September": 89.62,
+        "August": 89.62,
+        "July": 89.62,
+        "June": 89.62,
+        "May": 94.4,
+        "April": 96.31,
+        "March": 87.77,
+        "February": 86.67,
+        "January": 86.67
+      }
+    },
+    "Mumbai": {
+      "Petrol": {
+        "December": 106.31,
+        "November": 106.31,
+        "October": 106.31,
+        "September": 106.31,
+        "August": 106.31,
+        "July": 108.59,
+        "June": 111.35,
+        "May": 117.56,
+        "April": 120.13,
+        "March": 111.14,
+        "February": 109.98,
+        "January": 109.98
+      },
+      "Diesel": {
+        "December": 94.27,
+        "November": 94.27,
+        "October": 94.27,
+        "September": 94.27,
+        "August": 94.27,
+        "July": 95.63,
+        "June": 97.28,
+        "May": 102.35,
+        "April": 104.39,
+        "March": 95.32,
+        "February": 94.14,
+        "January": 94.14
+      }
+    },
+    "Chennai": {
+      "Petrol": {
+        "December": 102.63,
+        "November": 102.63,
+        "October": 102.63,
+        "September": 102.63,
+        "August": 102.63,
+        "July": 102.63,
+        "June": 102.63,
+        "May": 108.2,
+        "April": 110.51,
+        "March": 102.44,
+        "February": 101.4,
+        "January": 101.4
+      },
+      "Diesel": {
+        "December": 94.24,
+        "November": 94.24,
+        "October": 94.24,
+        "September": 94.24,
+        "August": 94.24,
+        "July": 94.24,
+        "June": 94.24,
+        "May": 98.78,
+        "April": 100.6,
+        "March": 92.48,
+        "February": 91.43,
+        "January": 91.43
+      }
+    },
+    "Kolkata": {
+      "Petrol": {
+        "December": 106.03,
+        "November": 106.03,
+        "October": 106.03,
+        "September": 106.03,
+        "August": 106.03,
+        "July": 106.03,
+        "June": 106.03,
+        "May": 112.19,
+        "April": 114.74,
+        "March": 105.82,
+        "February": 104.67,
+        "January": 104.67
+      },
+      "Diesel": {
+        "December": 92.76,
+        "November": 92.76,
+        "October": 92.76,
+        "September": 92.76,
+        "August": 92.76,
+        "July": 92.76,
+        "June": 92.76,
+        "May": 97.55,
+        "April": 99.47,
+        "March": 90.9,
+        "February": 89.79,
+        "January": 89.79
+      }
+    }
+  },
+  "2023": {
+    "Delhi": {
+      "Petrol": {
+        "December": 96.72,
+        "November": 96.72,
+        "October": 96.72,
+        "September": 96.72,
+        "August": 96.72,
+        "July": 96.72,
+        "June": 96.72,
+        "May": 96.72,
+        "April": 96.72,
+        "March": 96.72,
+        "February": 96.72,
+        "January": 96.72
+      },
+      "Diesel": {
+        "December": 89.62,
+        "November": 89.62,
+        "October": 89.62,
+        "September": 89.62,
+        "August": 89.62,
+        "July": 89.62,
+        "June": 89.62,
+        "May": 89.62,
+        "April": 89.62,
+        "March": 89.62,
+        "February": 89.62,
+        "January": 89.62
+      }
+    },
+    "Mumbai": {
+      "Petrol": {
+        "December": 106.31,
+        "November": 106.31,
+        "October": 106.31,
+        "September": 106.31,
+        "August": 106.31,
+        "July": 106.31,
+        "June": 106.31,
+        "May": 106.31,
+        "April": 106.31,
+        "March": 106.31,
+        "February": 106.31,
+        "January": 106.31
+      },
+      "Diesel": {
+        "December": 94.27,
+        "November": 94.27,
+        "October": 94.27,
+        "September": 94.27,
+        "August": 94.27,
+        "July": 94.27,
+        "June": 94.27,
+        "May": 94.27,
+        "April": 94.27,
+        "March": 94.27,
+        "February": 94.27,
+        "January": 94.27
+      }
+    },
+    "Chennai": {
+      "Petrol": {
+        "December": 102.63,
+        "November": 102.63,
+        "October": 102.63,
+        "September": 102.63,
+        "August": 102.63,
+        "July": 102.63,
+        "June": 102.63,
+        "May": 102.63,
+        "April": 102.63,
+        "March": 102.63,
+        "February": 102.63,
+        "January": 102.63
+      },
+      "Diesel": {
+        "December": 94.24,
+        "November": 94.24,
+        "October": 94.24,
+        "September": 94.24,
+        "August": 94.24,
+        "July": 94.24,
+        "June": 94.24,
+        "May": 94.24,
+        "April": 94.24,
+        "March": 94.24,
+        "February": 94.24,
+        "January": 94.24
+      }
+    },
+    "Kolkata": {
+      "Petrol": {
+        "December": 106.03,
+        "November": 106.03,
+        "October": 106.03,
+        "September": 106.03,
+        "August": 106.03,
+        "July": 106.03,
+        "June": 106.03,
+        "May": 106.03,
+        "April": 106.03,
+        "March": 106.03,
+        "February": 106.03,
+        "January": 106.03
+      },
+      "Diesel": {
+        "December": 92.76,
+        "November": 92.76,
+        "October": 92.76,
+        "September": 92.76,
+        "August": 92.76,
+        "July": 92.76,
+        "June": 92.76,
+        "May": 92.76,
+        "April": 92.76,
+        "March": 92.76,
+        "February": 92.76,
+        "January": 92.76
+      }
+    }
+  },
+  "2024": {
+    "Delhi": {
+      "Petrol": {
+        "December": 94.77,
+        "November": 94.77,
+        "October": 94.72,
+        "September": 94.72,
+        "August": 94.72,
+        "July": 94.72,
+        "June": 94.72,
+        "May": 94.72,
+        "April": 94.72,
+        "March": 95.62,
+        "February": 96.72,
+        "January": 96.72
+      },
+      "Diesel": {
+        "December": 87.67,
+        "November": 87.67,
+        "October": 87.62,
+        "September": 87.62,
+        "August": 87.62,
+        "July": 87.62,
+        "June": 87.62,
+        "May": 87.62,
+        "April": 87.62,
+        "March": 88.52,
+        "February": 89.62,
+        "January": 89.62
+      }
+    },
+    "Mumbai": {
+      "Petrol": {
+        "December": 103.5,
+        "November": 103.44,
+        "October": 103.44,
+        "September": 103.44,
+        "August": 103.44,
+        "July": 103.44,
+        "June": 104.16,
+        "May": 104.21,
+        "April": 104.21,
+        "March": 105.16,
+        "February": 106.31,
+        "January": 106.31
+      },
+      "Diesel": {
+        "December": 90.03,
+        "November": 89.97,
+        "October": 89.97,
+        "September": 89.97,
+        "August": 89.97,
+        "July": 89.97,
+        "June": 92,
+        "May": 92.15,
+        "April": 92.15,
+        "March": 93.11,
+        "February": 94.27,
+        "January": 94.27
+      }
+    },
+    "Chennai": {
+      "Petrol": {
+        "December": 100.8,
+        "November": 100.8,
+        "October": 100.75,
+        "September": 100.75,
+        "August": 100.75,
+        "July": 100.75,
+        "June": 100.75,
+        "May": 100.75,
+        "April": 100.75,
+        "March": 101.6,
+        "February": 102.63,
+        "January": 102.63
+      },
+      "Diesel": {
+        "December": 92.39,
+        "November": 92.39,
+        "October": 92.34,
+        "September": 92.34,
+        "August": 92.34,
+        "July": 92.34,
+        "June": 92.34,
+        "May": 92.34,
+        "April": 92.34,
+        "March": 93.2,
+        "February": 94.24,
+        "January": 94.24
+      }
+    },
+    "Kolkata": {
+      "Petrol": {
+        "December": 105.01,
+        "November": 104.95,
+        "October": 104.95,
+        "September": 104.95,
+        "August": 104.95,
+        "July": 104.95,
+        "June": 103.94,
+        "May": 103.94,
+        "April": 103.94,
+        "March": 104.88,
+        "February": 106.03,
+        "January": 106.03
+      },
+      "Diesel": {
+        "December": 91.82,
+        "November": 91.76,
+        "October": 91.76,
+        "September": 91.76,
+        "August": 91.76,
+        "July": 91.76,
+        "June": 90.76,
+        "May": 90.76,
+        "April": 90.76,
+        "March": 91.66,
+        "February": 92.76,
+        "January": 92.76
+      }
+    }
+  },
+  "2025": {
+    "Delhi": {
+      "Petrol": {
+        "June": 94.77,
+        "May": 94.77,
+        "April": 94.77,
+        "March": 94.77,
+        "February": 94.77,
+        "January": 94.77
+      },
+      "Diesel": {
+        "June": 87.67,
+        "May": 87.67,
+        "April": 87.67,
+        "March": 87.67,
+        "February": 87.67,
+        "January": 87.67
+      }
+    },
+    "Mumbai": {
+      "Petrol": {
+        "June": 103.5,
+        "May": 103.5,
+        "April": 103.5,
+        "March": 103.5,
+        "February": 103.5,
+        "January": 103.5
+      },
+      "Diesel": {
+        "June": 90.03,
+        "May": 90.03,
+        "April": 90.03,
+        "March": 90.03,
+        "February": 90.03,
+        "January": 90.03
+      }
+    },
+    "Chennai": {
+      "Petrol": {
+        "June": 100.8,
+        "May": 100.8,
+        "April": 100.8,
+        "March": 100.8,
+        "February": 100.8,
+        "January": 100.8
+      },
+      "Diesel": {
+        "June": 92.39,
+        "May": 92.39,
+        "April": 92.39,
+        "March": 92.39,
+        "February": 92.39,
+        "January": 92.39
+      }
+    },
+    "Kolkata": {
+      "Petrol": {
+        "June": 105.41,
+        "May": 105.27,
+        "April": 105.01,
+        "March": 105.01,
+        "February": 105.01,
+        "January": 105.01
+      },
+      "Diesel": {
+        "June": 92.02,
+        "May": 91.95,
+        "April": 91.82,
+        "March": 91.82,
+        "February": 91.82,
+        "January": 91.82
+      }
+    }
+  }
+}
