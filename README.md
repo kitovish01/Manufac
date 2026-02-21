@@ -5,17 +5,16 @@ Interactive data visualization dashboard for analyzing the **Retail Selling Pric
 Data source: **National Data and Analytics Platform (NDAP), NITI Aayog**.
 
 ## 🚀 Live Demo
-**[manufac-rsp-visualization-kknbxmht2.vercel.app](https://manufac-rsp-visualization-kknbxmht2.vercel.app)**
+**[manufac-rsp-visualization-kknbxmht2.vercel.app](https://manufacanalytics.vercel.app)
 
 ## 📊 Dashboard Preview
-![Dashboard Screenshot](./public/dashboard-screenshot.png)
-*(Note: Please capture and save the screenshot if not present)*
+[Dashboard Screenshot attached]
 
 ## 🛠️ Tech Stack
 - **Framework**: [Vite](https://vitejs.dev/) + [React](https://reactjs.org/) (TypeScript)
 - **UI Library**: [Mantine UI](https://mantine.dev/) (v8)
 - **Visualization**: [Apache ECharts](https://echarts.apache.org/) (Native integration)
-- **Data Source**: NDAP NITI Aayog (daily daily prices consolidated to monthly averages)
+- **Data Source**: NDAP NITI Aayog (daily daily prices consolidated to monthly averages) as given in the assignment pdf link for datasets 
 - **Deployment**: [Vercel](https://vercel.com/)
 
 ## 📝 Key Features
@@ -43,7 +42,7 @@ Data source: **National Data and Analytics Platform (NDAP), NITI Aayog**.
     ```bash
     yarn install
     ```
-2.  **Process raw data** (Optional - data.json is already included):
+2.  **Process raw data**
     ```bash
     node scripts/process-data.js
     ```
@@ -55,6 +54,3 @@ Data source: **National Data and Analytics Platform (NDAP), NITI Aayog**.
     ```bash
     yarn build
     ```
-
----
-**Developed for Manufac Analytics Technical Assignment.**
