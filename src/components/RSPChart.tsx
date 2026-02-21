@@ -1,12 +1,16 @@
 import React, { useEffect, useRef } from 'react';
 import * as echarts from 'echarts';
 
-interface RSPChartProps {
-    data: { [month: string]: number };
-    title: string;
-}
-
-const RSPChart: React.FC<RSPChartProps> = ({ data, title }) => {
+/**
+ * RSPChart Component
+ * 
+ * Renders an interactive bar chart using Apache ECharts.
+ * 
+ * @param {Object} props
+ * @param {Record<string, number>} props.data - Monthly average prices (Month Name -> Price)
+ * @param {string} props.title - The title to display on the chart
+ */
+const RSPChart: React.FC<{ data: Record<string, number>; title: string }> = ({ data, title }) => {
     const chartRef = useRef<HTMLDivElement>(null);
     const chartInstance = useRef<echarts.ECharts | null>(null);
 

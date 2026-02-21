@@ -1,29 +1,42 @@
+/**
+ * Data Processing Script
+ * 
+ * Purpose: 
+ *   Converts the raw daily Retail Selling Price (RSP) CSV into a consolidated 
+ *   JSON format containing monthly averages. This improves application efficiency 
+ *   as the UI only loads pre-calculated aggregates rather than processing 2MB of raw data.
+ * 
+ * Logic:
+ *   1. Parses CSV rows handling quoted values.
+ *   2. Groups data by Year -> City -> Fuel Type -> Month.
+ *   3. Calculates the average price for each group (handling missing values as 0).
+ *   4. Saves the results to src/data.json.
+ */
+
 import fs from 'fs';
-import path from 'path';
 
 const csvFilePath = './Retail Selling Price (RSP) of Petrol and Diesel in Metro Cities.csv';
 const outputFilePath = './src/data.json';
 
+/**
+ * Custom CSV parser to handle nested commas and quotes.
+ * @param {string} csvText Raw CSV content.
+ * @returns {Array<Object>} List of parsed records.
+ */
 function parseCSV(csvText) {
     const lines = csvText.split('\n');
-    const headers = lines[0].split(',');
     const results = [];
 
+    // Skip header (i=0)
     for (let i = 1; i < lines.length; i++) {
         const line = lines[i].trim();
         if (!line) continue;
 
-        // Simple CSV parser that handles quotes
-        const regex = /(".*?"|[^",\s]+)(?=\s*,|\s*$)/g;
-        const matches = [];
-        let match;
-        let lastIndex = 0;
-
-        // Handle empty fields and quotes
         const row = [];
         let inQuotes = false;
         let currentValue = '';
 
+        // State-machine loop for CSV parsing
         for (let char of line) {
             if (char === '"') {
                 inQuotes = !inQuotes;
@@ -36,20 +49,23 @@ function parseCSV(csvText) {
         }
         row.push(currentValue.trim().replace(/^"|"$/g, ''));
 
+        // Basic validation: Ensure we have enough columns
         if (row.length < 7) continue;
 
         const [country, fy, monthStr, date, product, city, priceStr] = row;
-        const price = parseFloat(priceStr) || 0;
+        const price = parseFloat(priceStr) || 0; // Treatment of missing values as 0
 
-        // Extract year and month from date (YYYY-MM-DD)
+        // Extract year and localized month name from the YYYY-MM-DD string
         if (!date || !date.includes('-')) continue;
         const [year, monthNum] = date.split('-');
-        const monthName = new Date(date).toLocaleString('default', { month: 'long' });
+
+        // Month name from date object
+        const monthDate = new Date(parseInt(year), parseInt(monthNum) - 1, 15);
+        const monthName = monthDate.toLocaleString('default', { month: 'long' });
 
         results.push({
             year,
             month: monthName,
-            monthIndex: parseInt(monthNum, 10),
             city,
             product: product.trim(),
             price
@@ -62,7 +78,7 @@ try {
     const csvData = fs.readFileSync(csvFilePath, 'utf8');
     const parsedData = parseCSV(csvData);
 
-    // Aggregation: { [year]: { [city]: { [product]: { [month]: { sum: number, count: number } } } } }
+    // Initial aggregation structure
     const aggregated = {};
 
     parsedData.forEach(item => {
@@ -77,7 +93,7 @@ try {
         aggregated[item.year][item.city][item.product][item.month].count += 1;
     });
 
-    // Calculate averages
+    // Compute arithmetic means
     const finalData = {};
     for (const year in aggregated) {
         finalData[year] = {};

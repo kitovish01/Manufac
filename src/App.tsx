@@ -5,8 +5,18 @@ import { theme } from "./theme";
 import rawData from "./data.json";
 import RSPChart from "./components/RSPChart";
 
+/**
+ * Dashboard State Interface
+ * Structure: { [year]: { [city]: { [fuel]: { [month]: averagePrice } } } }
+ */
 const data = rawData as Record<string, Record<string, Record<string, Record<string, number>>>>;
 
+/**
+ * Metro City Fuel Price Analytics Dashboard
+ * 
+ * The main entry point that manages the state for City, Fuel Type, and Year selection.
+ * It reactively updates the visualization based on the processed dataset.
+ */
 export default function App() {
   const years = useMemo(() => Object.keys(data).sort((a, b) => b.localeCompare(a)), []);
 
