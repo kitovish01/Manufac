@@ -8,7 +8,7 @@ Data source: **National Data and Analytics Platform (NDAP), NITI Aayog**.
 **[manufac-rsp-visualization-kknbxmht2.vercel.app](https://manufacanalytics.vercel.app)
 
 ## 📊 Dashboard Preview
-[Dashboard Screenshot attached]
+[Dashboard Screenshot in ../public/DashBoard-1/2/3/4/5]
 
 ## 🛠️ Tech Stack
 - **Framework**: [Vite](https://vitejs.dev/) + [React](https://reactjs.org/) (TypeScript)
