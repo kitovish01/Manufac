@@ -5,10 +5,14 @@ Interactive data visualization dashboard for analyzing the **Retail Selling Pric
 Data source: **National Data and Analytics Platform (NDAP), NITI Aayog**.
 
 ## 🚀 Live Demo
-**[manufac-rsp-visualization-kknbxmht2.vercel.app](https://manufacanalytics.vercel.app)
+**[manufac-rsp-visualization.vercel.app](https://manufac-rsp-visualization-kknbxmht2.vercel.app)**
 
 ## 📊 Dashboard Preview
-[Dashboard Screenshot in ../public/DashBoard-1/2/3/4/5]
+![Dashboard View 1](./public/DashBoard-1.png)
+![Dashboard View 2](./public/DashBoard-2.png)
+![Dashboard View 3](./public/DashBoard-3.png)
+![Dashboard View 4](./public/DashBoard-4.png)
+![Dashboard View 5](./public/DashBoard-5.png)
 
 ## 🛠️ Tech Stack
 - **Framework**: [Vite](https://vitejs.dev/) + [React](https://reactjs.org/) (TypeScript)
@@ -33,7 +37,9 @@ Data source: **National Data and Analytics Platform (NDAP), NITI Aayog**.
 /scripts
   process-data.js   # Script to calculate monthly averages from CSV
 /public
-  dashboard-screenshot.png
+  DashBoard-1.png   # Dashboard screenshots
+  DashBoard-2.png
+  ...
 ```
 
 ## ⚙️ Setup Instructions
